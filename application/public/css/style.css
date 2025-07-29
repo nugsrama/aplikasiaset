@@ -1,0 +1,57 @@
+.main{
+    height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+.sidebar{
+    background: #0e2b5a;
+    color: darkslategray;
+
+}
+.sidebar a{
+    color: rgb(243, 241, 241);
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+.sidebar a:hover{
+    background: rgb(14, 61, 116);
+}
+.active {
+    background: rgb(7, 77, 76);
+    border-right: solid 10px #82edad;
+
+}
+.card-data.room{
+    background-color: teal;
+}
+.card-data.category{
+    background-color: orangered;
+}
+.card-data.user{
+    background-color: rgb(43, 12, 164);
+}
+
+.card-data.ruangan{
+    background-color: teal;
+}
+.card-data.booking{
+    background-color: rgb(0, 190, 70);
+}
+
+.card-data {
+    border: solid;
+    padding: 20px 50px;
+    color: white;
+}
+.card-data i{
+     font-size: 80px;
+
+}
+.card-desc{
+    font-size: 30px;
+}
+.card-count{
+    font-size: 30px;
+}
+
